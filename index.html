@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Adventure Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="game">
+      <h1>Text Adventure Game</h1>
+      <div id="levelDisplay"></div>
+      <div id="scoreDisplay"></div>
+
+      <div id="startWindow">
+        <div id="usernameInput">
+          <label for="username">Enter your username:</label>
+          <input type="text" id="username" required />
+          <button id="startBtn">Start Game</button>
+        </div>
+        <div id="gameInstructions">
+          <h2>Instructions:</h2>
+          <p>
+            Welcome to the Text Adventure Game! Explore the story and make
+            choices to progress. Have fun!
+          </p>
+        </div>
+      </div>
+      <div id="scene">
+        <div id="character">
+          <img id="sceneIcon" src="adventurer.png" alt="Character" />
+        </div>
+        <div id="greeting"></div>
+        <div id="description"></div>
+        <div id="options"></div>
+        <div id="timeDisplay"></div>
+      </div>
+    </div>
+
+    <button id="quitBtn">Quit</button>
+    <script src="script.js"></script>
+  </body>
+</html>

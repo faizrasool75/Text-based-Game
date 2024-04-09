@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Sky -->
+  <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#ff6c5e;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#1f1742;stop-opacity:1" />
+  </linearGradient>
+  <rect width="100%" height="100%" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="80" fill="#ffea3c"/>
+  <circle cx="700" cy="100" r="120" fill="none" stroke="#ffea3c" stroke-width="8"/>
+  
+  <!-- Mountains -->
+  <path d="M0 450 Q 200 250 400 450 T 800 450 L 800 600 L 0 600 Z" fill="#2c203b"/>
+  <path d="M0 470 Q 250 300 500 470 T 800 470 L 800 600 L 0 600 Z" fill="#2b1f3a"/>
+  <path d="M0 490 Q 300 350 600 490 T 800 490 L 800 600 L 0 600 Z" fill="#2a1e38"/>
+  
+  <!-- Hills -->
+  <path d="M0 500 Q 100 450 200 500 T 400 500 T 600 500 T 800 500 L 800 600 L 0 600 Z" fill="#543e57"/>
+  <path d="M0 510 Q 150 470 300 510 T 600 510 T 800 510 L 800 600 L 0 600 Z" fill="#523c55"/>
+  <path d="M0 520 Q 200 490 400 520 T 800 520 L 800 600 L 0 600 Z" fill="#4f3a52"/>
+  
+  <!-- Lake -->
+  <circle cx="500" cy="600" r="200" fill="#62c4da"/>
+  
+  <!-- Reflection -->
+  <circle cx="500" cy="700" r="200" fill="url(#skyGradient)" opacity="0.5"/>
+</svg>

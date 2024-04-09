@@ -1,0 +1,175 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("bg.svg") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 20px;
+}
+
+#game {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(
+    31,
+    31,
+    31,
+    0.8
+  ); /* Semi-transparent dark background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* White shadow */
+  overflow: hidden; /* Prevent scrolling */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+#description {
+  font-size: 18px;
+  color: #ffffff; /* White text */
+  margin-bottom: 30px; /* Increase margin bottom */
+}
+
+h1 {
+  color: #ff6f61; /* Red heading */
+  font-size: 36px;
+  margin-bottom: 30px; /* Increase margin bottom */
+}
+
+#usernameInput {
+  margin-bottom: 30px;
+}
+
+#usernameInput label {
+  font-size: 24px;
+  color: #ffffff; /* White text */
+}
+
+#usernameInput input {
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #ffffff; /* White border */
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+  color: #ffffff; /* White text */
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+#usernameInput button {
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #ff6f61; /* Red button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+#usernameInput button:hover {
+  background-color: #e63e31; /* Darker red on hover */
+}
+
+#startWindow,
+#scene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#startWindow {
+  display: block;
+}
+
+#scene {
+  display: none;
+}
+
+#character img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 4px solid #ff6f61; /* Red border */
+}
+
+#options button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #3498db; /* Blue button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 20px; /* Increase margin bottom */
+  transition: background-color 0.3s;
+}
+
+#options button:last-child {
+  margin-right: 0;
+}
+
+#options button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+#greeting {
+  font-size: 30px;
+  color: #ff6f61; /* Red text */
+  margin-bottom: 30px;
+}
+
+#timeDisplay {
+  font-size: 20px;
+  color: #ffffff; /* White text */
+  margin-bottom: 20px;
+}
+
+#quitBtn {
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #e74c3c; /* Red button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#quitBtn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* CSS for styling the back button */
+button#backButton {
+  padding: 15px 30px;
+  background-color: #1abc9c; /* Turquoise button */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+button#backButton:hover {
+  background-color: #16a085; /* Darker turquoise on hover */
+}
+
+#levelDisplay {
+  margin-bottom: 20px; /* Increase margin bottom */
+}
+
+#scoreDisplay {
+  font-size: 24px;
+  color: #f7ff0c; /* Yellow text */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
